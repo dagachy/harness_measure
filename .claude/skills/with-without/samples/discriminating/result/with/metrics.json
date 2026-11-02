@@ -1,0 +1,8 @@
+{
+  "env": "with",
+  "duration_ms": 183,
+  "total_tokens": 27,
+  "tokens_mode": "estimated",
+  "timed_out": false,
+  "exit_code": 0
+}

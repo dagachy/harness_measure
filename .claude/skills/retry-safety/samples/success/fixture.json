@@ -1,0 +1,9 @@
+{
+  "name": "success",
+  "description": "generator가 attempt>=2 에서 'good' 산출물을 생성. verifier가 'good'을 요구. 상한 3회 안에 2회차 PASS로 종결.",
+  "max_retries": 3,
+  "expected": {
+    "outcome": "success",
+    "attempts": 2
+  }
+}

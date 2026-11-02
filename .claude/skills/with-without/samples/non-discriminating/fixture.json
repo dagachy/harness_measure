@@ -1,0 +1,10 @@
+{
+  "name": "non-discriminating",
+  "description": "두 환경 모두 동일 품질의 산출물을 생성. 단언 2건 모두 양쪽 PASS → 변별력 없음 (실험 설계 재검토 필요).",
+  "timeout_ms": 10000,
+  "expected": {
+    "pass_rate_with": 1.0,
+    "pass_rate_without": 1.0,
+    "discriminating_count": 0
+  }
+}

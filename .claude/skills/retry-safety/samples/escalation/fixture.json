@@ -1,0 +1,9 @@
+{
+  "name": "escalation",
+  "description": "generator가 항상 'bad' 산출물을 생성. verifier는 'good'을 요구. 상한 3회 모두 FAIL → escalate.",
+  "max_retries": 3,
+  "expected": {
+    "outcome": "escalated",
+    "attempts": 3
+  }
+}

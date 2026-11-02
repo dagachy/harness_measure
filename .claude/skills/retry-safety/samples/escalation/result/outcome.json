@@ -1,0 +1,31 @@
+{
+  "outcome": "escalated",
+  "attempts": 3,
+  "max_retries": 3,
+  "final_artifact": null,
+  "escalate_message": "escalated: 3회 실패, 수동 개입 필요",
+  "duration_ms_total": 829,
+  "attempts_detail": [
+    {
+      "n": 1,
+      "exit_gen": 0,
+      "exit_ver": 1,
+      "duration_ms": 235,
+      "timed_out": false
+    },
+    {
+      "n": 2,
+      "exit_gen": 0,
+      "exit_ver": 1,
+      "duration_ms": 213,
+      "timed_out": false
+    },
+    {
+      "n": 3,
+      "exit_gen": 0,
+      "exit_ver": 1,
+      "duration_ms": 201,
+      "timed_out": false
+    }
+  ]
+}

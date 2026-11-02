@@ -1,0 +1,4 @@
+01-goal.sh	with	PASS
+01-goal.sh	without	FAIL
+02-exists.sh	with	PASS
+02-exists.sh	without	PASS

@@ -1,0 +1,20 @@
+{
+  "pass_rate_with": 1.0,
+  "pass_rate_without": 0.5,
+  "discriminating_count": 1,
+  "inverted_count": 0,
+  "assertions": [
+    {
+      "id": "01-goal.sh",
+      "with": "PASS",
+      "without": "FAIL",
+      "label": "discriminating"
+    },
+    {
+      "id": "02-exists.sh",
+      "with": "PASS",
+      "without": "PASS",
+      "label": "non_discriminating_both_pass"
+    }
+  ]
+}

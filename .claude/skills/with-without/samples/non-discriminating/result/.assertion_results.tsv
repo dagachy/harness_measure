@@ -1,0 +1,4 @@
+01-exists.sh	with	PASS
+01-exists.sh	without	PASS
+02-nonempty-line.sh	with	PASS
+02-nonempty-line.sh	without	PASS

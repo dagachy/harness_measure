@@ -1,0 +1,3 @@
+# summary
+goal achieved: 요구 조건 모두 충족.
+details: with-skill 활성화 상태에서 생성됨.

@@ -1,0 +1,20 @@
+{
+  "pass_rate_with": 1.0,
+  "pass_rate_without": 1.0,
+  "discriminating_count": 0,
+  "inverted_count": 0,
+  "assertions": [
+    {
+      "id": "01-exists.sh",
+      "with": "PASS",
+      "without": "PASS",
+      "label": "non_discriminating_both_pass"
+    },
+    {
+      "id": "02-nonempty-line.sh",
+      "with": "PASS",
+      "without": "PASS",
+      "label": "non_discriminating_both_pass"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 Claude Code 하네스 **런타임 측정(measure)** 스킬 번들.
 "스킬·에이전트가 실제로 돌 때 **얼마나 잘/빠르게/안전하게** 동작하는지 측정한다" 는 목적으로 모은 플러그인.
 
-자매 플러그인 [`condition`](https://github.com/dagachy/condition) 이 **초 단위 pre-flight 정적 점검**을 담당한다면, `measure` 는 **분~시간 단위 런타임 실행·측정**을 담당한다. 둘은 UX·실행 모델이 달라 저장소를 분리.
+자매 플러그인 [`harness_pre_flight`](https://github.com/dagachy/harness_pre_flight) 이 **초 단위 pre-flight 정적 점검**을 담당한다면, `measure` 는 **분~시간 단위 런타임 실행·측정**을 담당한다. 둘은 UX·실행 모델이 달라 저장소를 분리.
 
 각 스킬은 책 *Harness Engineering with Claude Code* 의 특정 예제가 가르치는 원칙 하나를 **실제 실행 + 자동 측정**으로 변환한 것이다.
 
